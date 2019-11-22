@@ -8,4 +8,12 @@
   <ItemGroup>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Pages\uservalidation.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="uservalidation.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>

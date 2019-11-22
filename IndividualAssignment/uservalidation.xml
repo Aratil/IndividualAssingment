@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="uservalidation.xsl"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="uservalidation.xsd">
+    <user>
+        <firstname>Pratik</firstname>
+        <lastname>Gaur</lastname>
+        <bearcatid>gaurpk</bearcatid>
+        <favoriteshortcutkey>ctrl c </favoriteshortcutkey>
+    </user>
+    <user>
+        <firstname>Sukhada</firstname>
+        <lastname>Chiplunkar</lastname>
+        <bearcatid>chipsa</bearcatid>
+        <favoriteshortcutkey>ctrl n</favoriteshortcutkey>
+    </user>
+    <user>
+        <firstname>Vipul</firstname>
+        <lastname>Bhide</lastname>
+        <bearcatid>Bhidvl</bearcatid>
+        <favoriteshortcutkey>F10</favoriteshortcutkey>
+    </user>
+</users>
