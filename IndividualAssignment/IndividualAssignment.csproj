@@ -10,6 +10,10 @@
 
   <ItemGroup>
     <None Remove="Pages\uservalidation.html" />
+    <None Remove="uservalidation1.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\Assignment.html" />
   </ItemGroup>
   <ItemGroup>
     <None Update="uservalidation.xsl">
@@ -18,5 +22,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Pages\Assignment.cshtml" />
+    <Content Remove="wwwroot\images\home.png" />
+    <Content Remove="wwwroot\images\search.png" />
+    <Content Remove="wwwroot\images\ic_search.png" />
+    <Content Remove="wwwroot\Assignment.html" />
+    <Content Remove="wwwroot\Welcome.html" />
+    <Content Remove="Pages\AutoCompleteCatBreed.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Pages\AutoCompleteCatBreed.cshtml.cs" />
   </ItemGroup>
 </Project>

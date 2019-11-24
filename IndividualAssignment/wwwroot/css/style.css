@@ -1,0 +1,20 @@
+﻿body {
+    background-color: #A2B897;
+}
+
+#topnav {
+    background-color: #B37978;
+    margin-top:0px;
+    position:fixed;
+    vertical-align:top;
+    left:0;
+    top:0;
+    height:3em;
+    width:100%;
+    z-index:100;
+}
+
+#content {
+    position:relative;
+    margin-top: 6em;
+}
